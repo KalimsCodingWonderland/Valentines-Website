@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+    background-image: url('HeartsPattern.gif');
+    background-repeat: repeat;
+}
+
+#valentine-container {
+    text-align: center;
+    padding: 40px; /* Increase the padding */
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Increase the border-radius */
+    background-color: #ffffff;
+    font-family: "Comic Sans MS", sans-serif; /* Use a cursive font with fallback to a generic sans-serif font */
+
+}
+
+#celebration-container {
+    text-align: center;
+}
+
+button {
+    font-size: 24px; /* Increase the font size */
+    padding: 15px 30px; /* Increase the padding */
+    margin: 20px; /* Increase the margin */
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#noButton {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+#result {
+    margin-top: 30px; /* Increase the margin-top */
+    font-size: 20px; /* Increase the font size */
+    color: #555;
+}
